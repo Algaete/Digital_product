@@ -1,0 +1,15 @@
+body{
+  background-color: var(--black-color);
+  text-align: center;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;    /*centrar por altura en pagina */
+}
+/* tiene que estar abajo de la carpeta de estilos para que lea la variable de estilos.css */
+
+.content_paypal a{
+  color: var(--green-color);
+
+}
